@@ -1,0 +1,416 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Lato;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+img {
+	width: 100%;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+header {
+	background-image: url('Rectangle 3.jpg');
+	background-repeat: no-repeat;
+	color: #fff;
+	height: 782px;
+	background-size: cover;
+}
+.header-wrap {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 55px 0;
+}
+.bg-color {
+	height: 782px;
+	background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
+}
+nav {
+	width: 445px;
+}
+.nav li:hover {
+	color: gold;
+}
+.login-button:hover {
+	background-color: gold;
+	transition: 0.3s;
+}
+.nav {
+	display: flex;
+	justify-content: space-around;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.logo {
+	display: flex;
+	font-size: 18px;
+	align-items: center;
+}
+.logo img{
+	width: 29px;
+}
+.login-button {
+	width: 100px;
+	height: 40px;
+	font-size: 14px;
+	line-height: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	border: 1px solid #FFFFFF;
+	border-radius: 6px;
+}
+.login-button {
+	text-align: center;
+}
+.text-center-one {
+	width: 580px;
+	font-size: 72px;
+	margin: auto;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Lato;
+	margin-top: 140px;
+}
+.text-center-two {
+	font-family: Lato;
+	width: 470px;
+	display: flex;
+	align-items: center;
+	margin: auto;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 600;
+	height: 124px;
+}
+.button-center:hover {
+	background-color: gold;
+	transition: 0.3s;
+	color: #fff;
+}
+.button-center {
+	background: #FFFFFF;
+	border-radius: 6px;
+	width: 160px;
+	margin: auto;
+	height: 50px;
+	font-family: Lato;
+	font-weight: 600;
+	font-size: 14px;
+	text-align: center;
+	line-height: 50px;
+	text-transform: uppercase;
+	color: #ED4C5C;
+	margin-top: 40px;
+}
+.video-section {
+}
+.video-rod {
+	width: 1015px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 95px;
+	margin-bottom: 95px;
+}
+.video-desc {
+	width: 445px;
+	height: 210px;
+}
+.video-desc p{
+	font-size: 14px;
+	font-weight: 400;
+	text-align: justify;
+	margin-top: 25px;
+	margin-bottom: 40px;
+}
+.video {
+	position: relative;
+}
+.h1 {
+	font-size: 36px;
+	font-weight: 600;
+}
+.learn-more {
+	color: red;
+	font-size: 14px;
+}
+.one {
+	position: absolute;
+	left: -20px;
+	top: 125px;
+	width: 66px;
+	height: 66px;
+}
+.video .two{
+	width: 480px;
+	height: 310px;
+	display: block;
+}
+.h1-feat {
+	width: 1110px;
+	height: 55px;
+	text-align: center;
+	font-size: 36px;
+	font-weight: 700;
+	font-family: Lato;
+	padding: 63px 0;
+
+}
+.features {
+	background-color: #FAFAFA;
+}
+.features-wrap {
+	width: 1110px;
+	margin: auto;
+}
+.read-more {
+	font-size: 12px;
+	font-weight: bold;
+}
+.features-rod {
+	display: flex;
+	justify-content: space-between;
+}
+.box-img {
+	width: 350px;
+	height: 355px;
+	position: relative;
+	font-family: Lato;
+	margin-bottom: 125px;
+}
+.sub-box {
+	width: 293px;
+	text-align: center;
+	border-radius: 8px;
+	box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+	background-color: #fff;
+	position: absolute;
+	top: 140px;
+	left: 29px;
+}
+.features-one-text {
+	padding: 32px 32px 0 32px;
+	height: 40px;
+	width: 229px;
+	font-size: : 18px;
+	font-weight: bold;
+
+}
+.features-two-text {
+	height: 57px;
+	font-size: 12px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	padding: 20px 32px 5px 32px;
+}
+.read-more {
+	width: 253px;
+	height: 18px;
+	margin: 0 20px 35px 20px;
+	color: red;
+}
+.technology-wrap {
+	width: 1100px;
+	margin: auto;
+}
+.tech-center {
+	width: 1110px;
+	margin: auto;
+	font-size: 36px;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 65px;
+	padding-bottom: 52px;
+}
+.technology-rod {
+	display: flex;
+	justify-content: space-between;
+	width: 1100px;
+}
+.technology-box {
+	width: 255px;
+	height: 226px;
+	text-align: center;
+	position: relative;
+	padding-bottom: 105px;
+}
+.tech-box {
+	font-size: 100px;
+	color: rgba(16, 16, 16, 0.08);
+	width: 117px;
+	margin: auto;
+	height: 120px;
+	text-align: center;
+}
+.tech-box2 {
+	height: 22px;
+	font-size: 18px;
+	font-weight: 700;
+	font-family: Lato;
+	margin: 19px 0 10px;
+}
+.tech-box3 {
+	height: 51px;
+	text-align: center;
+	font-size: 12px;
+}
+.tech-img img{
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	top: 55px;
+	left: 90px;
+}
+.download {
+	background-color: #ED4C5C;
+	color: #fff;
+}
+.download-text-one {
+	font-size: 36px;
+	font-weight: 700;
+	padding-bottom: 25px;
+}
+.download-text-two {
+	font-size: 14px;
+	font-weight: 400;
+	padding-bottom: 40px;
+}
+.download-wrap {
+	width: 1060px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 95px 0;
+}
+.download-desc {
+	width: 445px;
+}
+.download-video {
+	width: 532px;
+	height: 311px;
+}
+
+.link {
+	width: 135px;
+	height: 32px;
+	display: flex;
+	justify-content: space-between;
+}
+.link  img {
+	width: 32px;
+}
+footer {
+	display: flex;
+	align-items: center;
+	border: solid 1px red;
+	height: 435px;
+}
+.footer-wrap {
+	width: 1080px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.footer-address {
+	width: 260px;
+	height: 265px;
+}
+.footer-one-text {
+	font-size: 18px;
+	width: 65px;
+}
+.footer-two-text {
+	margin-top: 33px;
+	font-size: 18px;
+
+	height: 54px;
+	font-size: 12px;
+	font-weight: 400;
+}
+.footer-three-text {
+	margin-top: 141px;
+	font-size: 12px;
+}
+.footer-nav nav {
+	width: 255px;
+}
+.footer-nav li {
+	padding-bottom: 5px;
+}
+.footer-nav {
+	margin-top: 30px;
+	width: 255px;
+	font-size: 12px;
+	font-weight: 400;
+}
+.footer-get {
+	width: 122px;
+}
+.get-one-text {
+	width: 101px;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 33px;
+}
+.get-two-text {
+	font-size: 12px;
+	font-weight: 400;
+	margin-bottom: 11px;
+	width: 122px;
+}
+.get-three-text {
+	width: 96px;
+	font-size: 12px;
+	margin-bottom: 20px;
+	font-weight: 400;
+}
+.get-icons {
+	width: 66px;
+	display: flex;
+	justify-content: space-between;
+	height: 14px;
+}
+.get-icons img{
+	width: 14px;
+	height: 14px;
+}
+.footer-service {
+	width: 122px;
+}
+.footer-support {
+	width: 225px;
+}
+.support-one-text {
+	width: 96px;
+	height: 22px;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 33px;
+}
+.support-two {
+	width: 216px;
+	height: 31px;
+}
+.service-one-text {
+	font-size: 18px;
+	font-weight: bold;
+}
+@media only screen and (max-width: 375px) {
+	.features-rod {
+		display: flex;
+		flex-wrap: wrap;
+		background-color: red;
+	}
+}
