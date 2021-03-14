@@ -1,0 +1,106 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	font-family: Gilroy;
+}
+img {
+	width: 100%;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+.logo {
+	font-family: 'Homemade Apple', cursive;
+	width: 40px;
+	height: 40px;
+}
+.header-wrap {
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	align-items: center;
+	width: 1325px;
+	padding: 25px 0;
+}
+nav {
+	width: 330px;
+}
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 18px;
+}
+.button {
+	width: 140px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+	color: #F7941E;
+	text-align: center;
+	border: solid 1px;
+	border-radius: 5px;
+	text-transform: uppercase;
+}
+.features, .features-work {
+	display: flex;
+	align-items: center;
+	background-color: #F1F1F2;
+}
+
+.features-info {
+	width: 435px;
+	margin: auto;
+}
+.one-text {
+	width: 435px;
+	font-size: 56px;
+	font-family: Gilroy;
+	font-weight: 600;
+	margin-bottom: 35px;
+}
+.two-text {
+	width: 420px;
+	font-size: 20px;
+	font-family: Gilroy;
+	font-weight: 400;
+}
+.features-btn {
+	width: 200px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 18px;
+	background-color: #F7941E;
+	color: #fff;
+	text-align: center;
+	border: solid 1px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	margin-top: 50px;
+}
+.features-desc{
+	display: block;
+	width: 720px;
+	height: 700px;
+}
+.features-img{
+	
+}
+.features-img, .features-title {
+	width: 50%;
+}
+.title {
+	width: 440px;
+}
+.text-one {
+	width: 200px;
+	font-size: 32px;
+	font-weight: 400;
+}
